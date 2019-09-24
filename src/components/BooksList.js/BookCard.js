@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 export class BookCard extends Component {
+    // STYLES-OBJECTS
     style={maxWidth: "540px"};
     bookDesc={fontSize : '0.9rem'}
-    // componentDidMount(){
-    //     this.props.onFetchBooks(this.props.searchInput);
-    // }
+    authName = {margin : '1% 0%', }
+    // RENDER-BOOK-AT-DOM
     renderBook = () => {
         if(this.props.books){
             return (
@@ -20,7 +20,11 @@ export class BookCard extends Component {
                             <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">{book.volumeInfo.title}</h5>
-                                <p className="card-text text-muted" style={this.bookDesc}>{book.volumeInfo.subtitle}</p>
+                                <small className="text-muted pb-2">By
+                                {book.volumeInfo.authors.map(author => <p style={this.authName} key={author}> {author} </p>)}
+                                </small>
+                                <p className="card-text text-danger border-top border-secondary pt-2 mb-1" style={this.bookDesc}>{book.volumeInfo.subtitle}</p>
+                                <a className="mb-1 text-primary" href={book.volumeInfo.previewLink} target="_blank">Details</a>
                                 <p className="card-text"><small className="text-muted">{book.volumeInfo.publishedDate}</small></p>
                             </div>
                             </div>

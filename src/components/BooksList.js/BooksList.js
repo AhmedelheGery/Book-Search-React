@@ -7,7 +7,6 @@ export class BooksList extends Component {
     render() {
         return (
             <div className="container">
-                <h1>Books List</h1>
                 <div className="row">
                     <div className="">
                         <BookCard/>

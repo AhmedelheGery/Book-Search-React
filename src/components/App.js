@@ -9,11 +9,10 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="container p-5">
           <SearchBar/> 
-          <BooksList/>         
-        </div>
-
+          <div className="container p-5">
+            <BooksList/>         
+          </div>
       </div>
     )
   }
