@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Book-Search-React/static/css/main.5133d260.chunk.css",
+    "main.js": "/Book-Search-React/static/js/main.f42b7717.chunk.js",
+    "main.js.map": "/Book-Search-React/static/js/main.f42b7717.chunk.js.map",
+    "runtime~main.js": "/Book-Search-React/static/js/runtime~main.9291f792.js",
+    "runtime~main.js.map": "/Book-Search-React/static/js/runtime~main.9291f792.js.map",
+    "static/css/2.266e55a5.chunk.css": "/Book-Search-React/static/css/2.266e55a5.chunk.css",
+    "static/js/2.eab5ffe5.chunk.js": "/Book-Search-React/static/js/2.eab5ffe5.chunk.js",
+    "static/js/2.eab5ffe5.chunk.js.map": "/Book-Search-React/static/js/2.eab5ffe5.chunk.js.map",
+    "index.html": "/Book-Search-React/index.html",
+    "precache-manifest.bf23ab664464ef93079ebd16b5b14137.js": "/Book-Search-React/precache-manifest.bf23ab664464ef93079ebd16b5b14137.js",
+    "service-worker.js": "/Book-Search-React/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/Book-Search-React/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.5133d260.chunk.css.map": "/Book-Search-React/static/css/main.5133d260.chunk.css.map",
+    "static/media/SearchBar.css": "/Book-Search-React/static/media/searchBG1.4794d6b5.jpg"
+  }
+}
