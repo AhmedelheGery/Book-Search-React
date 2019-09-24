@@ -1,0 +1,15 @@
+.searchHeader{
+    background-image : url('../../images/searchBG1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+}
+.searchHeader .input-group{
+    width: 50%;
+    margin: 0 auto;
+}
